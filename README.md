@@ -11,6 +11,7 @@ I used these technologies:
 I learned to use: 
 
 - Hooks (State Hook and Effect Hook) 
-- Forms, 
-- Conditional rendering, 
+- Forms
+- Conditional rendering
 - Creating custom components
+- Props
