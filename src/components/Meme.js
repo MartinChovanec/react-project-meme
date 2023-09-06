@@ -1,14 +1,12 @@
 import React from "react";
 
 export default function Meme() {
-  // save the meme-related data as an object called `meme
   const [meme, setMeme] = React.useState({
     topText: "One does not simply",
     bottomText: "Make a Meme",
     randomImage: "http://i.imgflip.com/1bij.jpg",
   });
 
-  // Create a state to mantain all memes images
   const [allMemes, setAllMemes] = React.useState([]);
 
   React.useEffect(() => {
@@ -38,7 +36,6 @@ export default function Meme() {
   return (
     <main>
       <div className="form">
-        {/* Name value must be equal to state object names property */}
         <input
           className="form--input"
           type="text"
