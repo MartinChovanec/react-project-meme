@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-project-meme/static/css/main.a2c8bf5d.css",
+    "main.js": "/react-project-meme/static/js/main.2f8551a6.js",
+    "static/media/troll-face.png": "/react-project-meme/static/media/troll-face.ff6c7eca7940f6213496.png",
+    "index.html": "/react-project-meme/index.html",
+    "main.a2c8bf5d.css.map": "/react-project-meme/static/css/main.a2c8bf5d.css.map",
+    "main.2f8551a6.js.map": "/react-project-meme/static/js/main.2f8551a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2c8bf5d.css",
+    "static/js/main.2f8551a6.js"
+  ]
+}
