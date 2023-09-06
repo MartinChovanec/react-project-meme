@@ -1,0 +1,160 @@
+:root {
+  --clr-accent-dark: #224680;
+  --clr-accent-light: #d3c226;
+  --clr-primary: #000;
+  --ff-main: "Karla", sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff-main);
+  background-color: var(--clr-primary);
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 2.25rem;
+  background-color: var(--clr-primary);
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  padding: 1rem;
+  background: linear-gradient(
+    90deg,
+    var(--clr-accent-dark) 1.18%,
+    var(--clr-accent-light) 100%
+  );
+  color: white;
+}
+
+.header--img {
+  height: 100%;
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header--project {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+
+.form {
+  display: grid;
+  grid-template: 1fr 1fr;
+  grid-gap: 1rem;
+  max-width: 50rem;
+}
+
+.form--input {
+  font-family: var(--ff-main);
+  border-radius: 5px;
+  border: 1px solid var(--clr-secondary);
+  padding: 1rem 3rem 1rem 1rem;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  padding: 1rem 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    var(--clr-accent-dark) 1.18%,
+    var(--clr-accent-light) 100%
+  );
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form--button:focus {
+  outline: none;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme--img {
+  max-width: 40rem;
+  align-self: center;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0.5rem 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+
+.footer {
+  padding: 1.25rem 2.25rem;
+   height: 4rem;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    var(--clr-accent-dark) 1.18%,
+    var(--clr-accent-light) 100%
+  );
+  color: white;
+}
+
+.footer--link {
+  text-decoration: none;
+  color: inherit;
+}
+
